@@ -18,4 +18,8 @@ To start the app
 3. `npm i --save moment`
 4. `npm start`
 
+## Guest Login
+Email : admin@iiitl.ac.in
+Password : password
+
 ### Project will open on port 3000
