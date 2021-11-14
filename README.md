@@ -1,11 +1,11 @@
 # Hostel_Management
 
 ## Contributers
-### 1. dozerex-Yuvarajan G (LIT2019025)
-### 2. devilcoder73-Govardhan Naidu (LCS2019017)
-### 3. Devadattacharan-Devadatta charan (LCS2019054)
-### 4. lcs2019029- Akshay Katari (LCS2019029)
-### 5. r0wdy7-Chaitanya Reddy (LIT2019034)
+### 1. dozerex - Yuvarajan G (LIT2019025)
+### 2. devilcoder73 - Govardhan Naidu (LCS2019017)
+### 3. Devadattacharan - Devadatta charan (LCS2019054)
+### 4. lcs2019029 - Akshay Katari (LCS2019029)
+### 5. r0wdy7 - Chaitanya Reddy (LIT2019034)
 
 ## Description
 With the advancement of technology, application areas of computer are rising day by day. Every sector  desires  its  procurement  for  fast  accurate  and  automated  operations.  Therefore  different program are developed to meet the requirement of various types of users i.e. related to any field.
