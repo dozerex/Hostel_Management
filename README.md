@@ -1,25 +1,38 @@
-# Hostel_Management
+# Hostel Management Portal
 
-## Contributers
-### 1. dozerex - Yuvarajan G (LIT2019025)
-### 2. devilcoder73 - Govardhan Naidu (LCS2019017)
-### 3. Devadattacharan - Devadatta charan (LCS2019054)
-### 4. lcs2019029 - Akshay Katari (LCS2019029)
-### 5. r0wdy7 - Chaitanya Reddy (LIT2019034)
 
 ## Description
-With the advancement of technology, application areas of computer are rising day by day. Every sector  desires  its  procurement  for  fast  accurate  and  automated  operations.  Therefore  different program are developed to meet the requirement of various types of users i.e. related to any field.
-Existing system is based on manual work and all the process are done manually, so they maintain registers and files for recording all the details of the system. They maintain several registers for recording the entry of daily transactions such as visitors visited the hostel, visitor drop the message for a particular student, etc. They maintain the record of the students so they keep each and every information regarding the students in the student master file. In the similar fashion they maintain the records of their fees so they keep each and every information regarding their fees details in the fees master file. They keep the bill Book or receipt Book to maintain the record for the fees collected by the student. Thus maintaining , Student Information, Check-in and Checkout information and all the things are done manually. It  is  a  small  software  package  which  is  helpful  in  the  areas  of  Hostel.  This program package includes all the activities in which the hostel is managed. The activities like the user management, the inventory processing, the data summary, etc are included.In terms of security this software is totally secure as it doesn't give access to unauthorized user as the username and password facility is provided.I  chose  Hostel  management  softwareas  the  system  seemed  simple  and  easy  to  use.  During  its development we realized that we needed software that may help to manage hostel activities and various other adjustments.
+The Hostel Management system is developed for automating the activities of the hostel. The App will be a great relief to the students, warden and the administration.This Software helps students in case of registration, complaints and outpasses. The Aim of Hostel Management system is to carry out the administrative activities in an efficient way. It will take the operations of the hostel to another level by providing faster access to data and allowing addition, updating and deletion in a systematic and reliable manner. Students no longer have to go through the administrative hassle for their needs related to Hostel or outpass. It will save the valuable time of the students, Warden and the Administration.
+
+
+## Features:
+- Login and forget-password using Firebase Authentication.
+- User can rise complaint, by uploading images and track its status.
+- OutPass Feature which enables the students who are leaving the hostel to seek permission from the Admin.
+- Statistics related to complaints and outpass shown on dashboard.
+- Recent news and events are shown in dashboard.
+
+## Technologies Used
+1. Reactjs (Frontend)
+2. Firebase (Backend)
+3. JavaScript (Language)
+3. HTML/CSS 
 
 ## Setup
 To start the app
-1. `npm install`
-2. `npm i --save react-datepicker`
-3. `npm i --save moment`
-4. `npm start`
+1. `Install nodejs`
+2. `npm install`
+3. `npm i --save react-datepicker`
+4. `npm i --save moment`
+5. `npm start`
 
 ## Guest Login
 Email : admin@iiitl.ac.in
 Password : password
 
-### Project will open on port 3000
+## Contributers
+* dozerex - Yuvarajan G (LIT2019025)
+* devilcoder73 - Govardhan Naidu (LCS2019017)
+* Devadattacharan - Devadatta charan (LCS2019054)
+* lcs2019029 - Akshay Katari (LCS2019029)
+* r0wdy7 - Chaitanya Reddy (LIT2019034)
