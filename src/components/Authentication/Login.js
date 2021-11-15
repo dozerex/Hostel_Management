@@ -96,7 +96,7 @@ export default function Login() {
           />
           <button>Sign In</button>
           <div className="login-helper">
-            <a href="/forgot-password">Forgot Password</a>
+            <a href="/forgot-password">Forgot Password?</a>
           </div>
         </form>
       </section>
