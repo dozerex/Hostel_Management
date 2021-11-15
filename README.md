@@ -1,15 +1,41 @@
 # Hostel_Management
 
 ## Contributers
-### 1. dozerex - Yuvarajan G (LIT2019025)
-### 2. devilcoder73 - Govardhan Naidu (LCS2019017)
-### 3. Devadattacharan - Devadatta charan (LCS2019054)
-### 4. lcs2019029 - Akshay Katari (LCS2019029)
-### 5. r0wdy7 - Chaitanya Reddy (LIT2019034)
+* dozerex - Yuvarajan G (LIT2019025)
+* devilcoder73 - Govardhan Naidu (LCS2019017)
+* Devadattacharan - Devadatta charan (LCS2019054)
+* lcs2019029 - Akshay Katari (LCS2019029)
+* r0wdy7 - Chaitanya Reddy (LIT2019034)
 
 ## Description
-With the advancement of technology, application areas of computer are rising day by day. Every sector  desires  its  procurement  for  fast  accurate  and  automated  operations.  Therefore  different program are developed to meet the requirement of various types of users i.e. related to any field.
-Existing system is based on manual work and all the process are done manually, so they maintain registers and files for recording all the details of the system. They maintain several registers for recording the entry of daily transactions such as visitors visited the hostel, visitor drop the message for a particular student, etc. They maintain the record of the students so they keep each and every information regarding the students in the student master file. In the similar fashion they maintain the records of their fees so they keep each and every information regarding their fees details in the fees master file. They keep the bill Book or receipt Book to maintain the record for the fees collected by the student. Thus maintaining , Student Information, Check-in and Checkout information and all the things are done manually. It  is  a  small  software  package  which  is  helpful  in  the  areas  of  Hostel.  This program package includes all the activities in which the hostel is managed. The activities like the user management, the inventory processing, the data summary, etc are included.In terms of security this software is totally secure as it doesn't give access to unauthorized user as the username and password facility is provided.I  chose  Hostel  management  softwareas  the  system  seemed  simple  and  easy  to  use.  During  its development we realized that we needed software that may help to manage hostel activities and various other adjustments.
+he Hostel Management system is developed for automating the activities of the hostel
+The Software will be a great relief to the students,warden and the administration.This Software helps students in case of registration,complaints and outpasses.The Aim of Hostel Management system is to carry out the administrative activities in an efficient way. It will take the operations of the hostel to another level by providing faster access to data and allowing addition,updating and deletion in a systematic and reliable manner.Students no longer have to go through the administrative hassle for their needs related to Hostel or outpass.It will save the valuable time of the students, Warden and the Administration.
+
+Why use Hostel Management System?
+1. The existing system is highly manual involving a lot of paperwork and calculation and therefore maybe erroneous. This has led to inconsistency and inaccuracy in the maintenance of data.
+2. The data which is stored on paper only,maybe lost, stolen or destroyed due to natural calamities like fire and water.
+3. The existing system is sluggish and causes inconvenience to students and employees.
+4. Due to manual nature it’s difficult to delete, update, add or view the data.
+5. Since the number of students may become large it becomes difficult to maintain a detailed record of each student.
+
+Features that we Implemented in our Current Project:-
+1. Hostel In-mate students can login using their institute email-id
+2. Hostel in-mates can file complaints regarding problems they are facing the hostel and review the progress of them
+3. The software is made transparent which is all the complaints filed can be re-viewed in a Complaint list.
+4. Once a complaint has been resolved, the admin can toggle it as done and it would no longer display in the active complaints section.
+5. OutPass Feature which enables the students who are leaving the hostel to seek permission from the Admin.
+6. Forgot password feature which can become handy when the password is lost.
+7. Students can update password whenever required.
+
+Features:
+1.Login using Firebase Authentication.
+2.Statistics related to complaints and outpass shown on dashboard.
+3.Complaints shown as a list with pagination.
+4.User can add complaints with a image as a proof of complaint.
+5.User can seek permission for outpass using outpass form.
+6.Recent news and events related to institute are shown in dashboard.
+
+Technologies Used:-
 
 ## Setup
 To start the app
