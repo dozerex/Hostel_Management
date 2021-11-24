@@ -1,65 +1,57 @@
-
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-.container {
-    width: 50%;
+.outpass-list-container {
+  width: 50%;
   margin: 0 auto;
-  padding: 60px 0 0 0;
+  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.container .title-section{
-    margin-bottom: 10px;
-    color: white;
+.outpass-list-container .outpass-title-section {
+  margin: 0 auto 10px auto;
+  /* margin-bottom: 10px;
+  margin: ; */
+  color: #fff;
 }
 
-.container .title-content{
-    width: fit-content;
+.outpass-list-container .outpass-list-title {
+  width: fit-content;
   margin: 5px auto;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
 }
 
-.container .outpasslist-section {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px 0 20px;
-    border: 5px solid #f7f3eb;
-    border-radius: 15px;
-    background-color: #f7f3eb;
-    color: #fff;
-  }
-
-  .container .outpasslist-section .card-container{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    background-color: #05192d;
-    border: 15px solid #05192d;
-    border-radius: 15px;
-    align-items: center;
-  }
-
-  .container .outpasslist-section .card-container .card-text .yesno-buttons{
-    display: flex;
-    padding-left: 30px;
-      display: inline-flex;
-      justify-content: flex-end;
-      color: white;
-      
-  }
-
-  .container .outpasslist-section .card-container .card-text .description{
-  display: inline-block;
-
+.outpass-list-container .outpass-list-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0 20px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #fff;
 }
 
-.btn {
-  padding: 2px 4px;
+.outpass-list-container .outpass-pagination-section {
+  margin: 15px auto 0 auto;
+  width: fit-content;
+}
+
+.outpass-list-container .post-outpass-button-section {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 0 20px 20px 0;
+  padding: 10px;
   background-color: #03ef62;
+  border: 5px solid #03ef62;
+  color: #163269;
 }
 
+.outpass-list-container .post-outpass-button-section:hover {
+  cursor: pointer;
+  background-color: #65ff8f;
+  border-color: #65ff8f;
+  text-decoration: none;
+}
