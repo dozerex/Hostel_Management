@@ -6,6 +6,27 @@
     border-radius: 15px;
     justify-content: space-between;
 }
+
+
+.outpass-details .outpass-reason{
+    padding: 7px;
+}
+
+.outpass-status .outpass-aprove {
+    background-color: #60c988;
+    border: 5px solid #60c988;
+    border-radius: 5px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.outpass-status .outpass-deny {
+    background-color: #DF5D2F;
+    border: 5px solid #DF5D2F;
+    border-radius: 5px;
+    width: 80px;
+    margin-right: 10px;
+}
   
 /* .outpass-item .outpass-image {
     min-width: 20%;
