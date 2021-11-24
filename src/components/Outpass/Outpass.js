@@ -10,7 +10,7 @@ export const Outpass = ({ outpasses }) => {
       {outpasses.map((outpass) => (
         <div className="outpass-item">
           <div className="outpass-details">
-            <h6>Problem: {outpass.Reason}</h6>
+            <h6 className="outpass-reason">Reason: {outpass.Reason}</h6>
           </div>
           <div className="outpass-status">
             <button className="outpass-aprove">Approve</button>

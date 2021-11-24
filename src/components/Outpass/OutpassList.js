@@ -54,7 +54,7 @@ export const OutpassList = () => {
   return (
     <main className="outpass-list-container">
       <section class="outpass-title-section">
-        <h1 class="outpass-list-content">Outpass Pending</h1>
+        <h1 class="outpass-list-title">Outpass Pending</h1>
       </section>
       <section class="outpass-list-section">
         <Outpass outpasses={outpasses} />
