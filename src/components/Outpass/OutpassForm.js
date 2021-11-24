@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
 import DatePicker from "react-datepicker";
 
+
 // import required css from library
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -12,7 +13,7 @@ import "react-datepicker/dist/react-datepicker.css";
 export const OutpassForm = () => {
   const history = useHistory();
   const handler = () => {
-    history.push("/complaint-list");
+    history.push("/outpass-list");
   };
   const showDate = new Date();
   const date =
@@ -89,19 +90,19 @@ export const OutpassForm = () => {
   return (
     <>
       <Card>
-        <section className="contactus-section">
+        <section className="contactus-section" style={{padding: "80px"}}>
           <div className="container">
             <div className="row">
               <div className="col-12 col-lg-10 mx-auto">
                 <div className="row">
                   <div className="contact-leftside col-12 col-lg-5">
-                    <figure>
+                    {/* <figure>
                       <img
                         src="./images/hero1.jpg"
                         alt="contatUsImg"
                         className="img-fluid"
                       />
-                    </figure>
+                    </figure> */}
                   </div>
 
                   {/* right side contact form  */}
@@ -160,11 +161,7 @@ export const OutpassForm = () => {
                             />
                           
                         </div>
-                      </div>
-
-                      
-                    
-
+                      </div>                  
                       <button
                         type="submit"
                         className="btn btn-style w-100"
@@ -172,12 +169,6 @@ export const OutpassForm = () => {
                       >
                         Submit
                       </button>
-                      <div className="w-100 text-center mt-3">
-                        <Link to="/complaint-list">Complaint List</Link>
-                      </div>
-                      <div className="w-100 text-center mt-1 mb-3">
-                        <Link to="/">Dashboard</Link>
-                      </div>
                     </form>
                   </div>
                 </div>
