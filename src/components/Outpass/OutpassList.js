@@ -8,6 +8,10 @@ import "./OutpassList.css"
 import { Outpass } from "./Outpass";
 
 export const OutpassList = () => {
+
+  const [file, setFile] = useState(null);
+  const [url, setUrl] = useState("");
+
   const [outpasses, setoutPasses] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -23,8 +27,9 @@ export const OutpassList = () => {
           setLoading(true);
           snapshot.forEach((snap) => {
             const temp = snap.val();
-            if (temp.solved == false) {
+            if (temp.approved == false) {
               newoutpasses.push(temp);
+              console.log(temp);
             }
           });
           setLoading(false);
@@ -47,29 +52,23 @@ export const OutpassList = () => {
   document.title = "Outpass List";
 
   return (
-    <div class="container">
-        <section class="title-section">
-            <h1 class="title-content">List of Active Outpasses</h1>
-        </section>
-        <section class="outpasslist-section">
-            <div class="card-container">
-                <div class="card-text">
-                    {/* <span class="description">Old McDonald had a farm EIEIO</span> */}
-                    <Outpass outpasses={outpasses} />
-                    <span class="yesno-buttons">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span class="glyphicon glyphicon-ok"></span> Approve
-                        </button>
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span class="glyphicon glyphicon-remove"></span> Deny
-                        </button>
-                    </span>
-                </div>
-            </div>
-        </section>
-    <Link to="/outpass-form" className="post-complaint-button-section">
+    <main className="outpass-list-container">
+      <section class="outpass-title-section">
+        <h1 class="outpass-list-content">Outpass Pending</h1>
+      </section>
+      <section class="outpass-list-section">
+        <Outpass outpasses={outpasses} />
+      </section>
+      <section className="outpass-pagination-section">
+        <PaginationForPosts
+          postsPerPage={outpassesPerPage}
+          totalPosts={outpasses.length}
+          paginate={paginate}
+        />
+      </section>
+      <Link to="/outpass-form" className="post-outpass-button-section">
         <ImPlus />
       </Link>
-    </div>
+    </main>   
   )
 }

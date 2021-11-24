@@ -1,0 +1,22 @@
+.outpass-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #05192d;
+    border: 5px solid #05192d;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+  
+/* .outpass-item .outpass-image {
+    min-width: 20%;
+    max-width: 20%;
+    height: 130px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.outpass-image img {
+    height: 130px;
+    border-radius: 15px;
+} */
+  
