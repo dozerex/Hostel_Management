@@ -14,7 +14,7 @@ export default function ForgotPassword() {
     valueChangeHandler: emailChangeHandler,
     inputBlurHandler: emailBlurHandler,
     // reset: resetEmailInput,
-  } = useInput((value) => value.includes("@"));
+  } = useInput((value) => value.includes("@iiitl.ac.in"));
   console.log(enteredEmail);
   console.log(emailInputHasError);
 

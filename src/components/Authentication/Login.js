@@ -15,7 +15,7 @@ export default function Login() {
     valueChangeHandler: emailChangeHandler,
     inputBlurHandler: emailBlurHandler,
     // reset: resetEmailInput,
-  } = useInput((value) => value.includes("@"));
+  } = useInput((value) => value.includes("@iiitl.ac.in"));
 
   const {
     value: enteredPassword,
