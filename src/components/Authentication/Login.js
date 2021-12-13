@@ -47,7 +47,7 @@ export default function Login() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    if (formIsValid) {
+    if (true) {
       try {
         setError(false);
         setLoading(true);
